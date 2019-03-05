@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\HomeMaster.cs" />
     <Compile Include="Assets\Scripts\LoginButton.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Karthik/Darknet/Darknet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

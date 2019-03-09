@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CrpytMaster.cs" />
     <Compile Include="Assets\Scripts\HomeMaster.cs" />
     <Compile Include="Assets\Scripts\LoginButton.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">

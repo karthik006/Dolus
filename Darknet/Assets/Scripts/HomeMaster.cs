@@ -18,8 +18,13 @@ public class HomeMaster : MonoBehaviour
         
     }
 
-    public void openIris()
+    public void OpenIris()
     {
         SceneManager.LoadScene(2, LoadSceneMode.Additive);
+    }
+
+    public void CpenCrpyt()
+    {
+        SceneManager.LoadScene(3, LoadSceneMode.Additive);
     }
 }

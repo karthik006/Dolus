@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Crypt.unity
     guid: 3c354613322f57e46a82e705992fc26e
+  - enabled: 1
+    path: Assets/Scenes/Cronus.unity
+    guid: 253f9690bfafb7f46ae83a67409f37bc
   m_configObjects: {}

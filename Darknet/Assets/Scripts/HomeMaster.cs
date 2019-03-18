@@ -6,10 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class HomeMaster : MonoBehaviour
 {
+    bool isCrpyt, isIris, isCronus;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        isCrpyt = false;
+        isIris = false;
+        isCronus = false;
     }
 
     // Update is called once per frame
@@ -20,11 +24,43 @@ public class HomeMaster : MonoBehaviour
 
     public void OpenIris()
     {
-        SceneManager.LoadScene(2, LoadSceneMode.Additive);
+        if (!isIris)
+        {
+            SceneManager.LoadScene(2, LoadSceneMode.Additive);
+            isIris = true;
+        }
+        else
+        {
+            SceneManager.UnloadSceneAsync(2);
+            isIris = false;
+        }
     }
 
-    public void CpenCrpyt()
+    public void OpenCrpyt()
     {
-        SceneManager.LoadScene(3, LoadSceneMode.Additive);
+        if (!isCrpyt)
+        {
+            SceneManager.LoadScene(3, LoadSceneMode.Additive);
+            isCrpyt = true;
+        }
+        else
+        {
+            SceneManager.UnloadSceneAsync(3);
+            isCrpyt = false;
+        }
+    }
+
+    public void OpenCronus()
+    {
+        if (!isCronus)
+        {
+            SceneManager.LoadScene(4, LoadSceneMode.Additive);
+            isCronus = true;
+        }
+        else
+        {
+            SceneManager.UnloadSceneAsync(4);
+            isCronus = false;
+        }
     }
 }

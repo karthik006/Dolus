@@ -33,9 +33,9 @@ public class CrpytMaster : MonoBehaviour
 
     public void GoButton()
     {
-        if(displayText.text == "12345")
+        if(displayText.text == "43297")
         {
-            hashText.text = "54321";
+            hashText.text = "IBN9271";
         }
         else
         {

@@ -61,9 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CronusMaster.cs" />
     <Compile Include="Assets\Scripts\CrpytMaster.cs" />
     <Compile Include="Assets\Scripts\HomeMaster.cs" />
     <Compile Include="Assets\Scripts\LoginButton.cs" />
+    <None Include="Assets\Data\Journal1.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Karthik/Darknet/Darknet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

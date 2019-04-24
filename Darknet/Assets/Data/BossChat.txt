@@ -1,0 +1,9 @@
+1|Fantastic! You managed to get into the system! It’s connected to our servers, so I should be able to access XYZ’s research.
+2|Damn. He’s encrypted all his data. You’re going to have to decrypt his files for us. I would suggest starting with his journal entries – there’s bound to be something in there to help you crack the data.
+3|You did it! Now, let’s take a look.
+4|Hmm. This is all the information the Agency has gathered on DOLUS. He probably used it as the starting point for his investigation. I know you’ve been debriefed already, but take a look – this is all the info you’re going to get on these guys.
+5|There seems to be another journal entry on the system, but it’s locked. Look for clues regarding the password.
+6|Brilliant! Keep it up, and maybe we can find out what happened to XYZ.
+7|Woah. It looks like she was onto something big. It seems to be a record of all of DOLUS’s activities over the past year. But why is a list of Agency employees attached to it? Were they at risk?
+8|There’s one last journal entry. No time to waste – I’ve got a bad feeling XYZ’s in danger. Find the password!
+9|Well done. Some of us had doubts, but you’ve proven us wrong. Have you got the final answer, though?

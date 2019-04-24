@@ -64,8 +64,14 @@
     <Compile Include="Assets\Scripts\CronusMaster.cs" />
     <Compile Include="Assets\Scripts\CrpytMaster.cs" />
     <Compile Include="Assets\Scripts\HomeMaster.cs" />
+    <Compile Include="Assets\Scripts\IrisMaster.cs" />
     <Compile Include="Assets\Scripts\LoginButton.cs" />
+    <None Include="Assets\Data\Start message.txt" />
+    <None Include="Assets\Data\Journal2.txt" />
     <None Include="Assets\Data\Journal1.txt" />
+    <None Include="Assets\Data\BossChat.txt" />
+    <None Include="Assets\Data\IndexBoss.txt" />
+    <None Include="Assets\Data\Journal3.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Karthik/Darknet/Darknet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

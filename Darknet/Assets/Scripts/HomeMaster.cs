@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class HomeMaster : MonoBehaviour
 {
+    public static string stage;
+
     bool isCrpyt, isIris, isCronus;
 
     // Start is called before the first frame update
     void Start()
     {
+        stage = "A";
         isCrpyt = false;
         isIris = false;
         isCronus = false;
